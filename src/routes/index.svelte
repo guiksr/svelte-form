@@ -11,6 +11,11 @@ main {
   box-sizing: border-box;
   height: 100vh;
 }
+@media only screen and (max-width: 600px) {
+  .footer-wrapper{
+    visibility: hidden;
+  }
+}
 
 .footer-wrapper {
   font-size: 16px;

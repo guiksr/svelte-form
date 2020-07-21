@@ -49,7 +49,7 @@
   box-shadow: 0 8px 24px #00000030;
   padding: 32px;
   width: 25vw;
-  min-width: 300px;
+  min-width: 250px;
   border-radius: 24px;
   background-color: var(--color-black);
 }
@@ -151,7 +151,11 @@
   padding: 0 0 0 18px;
   color: var(--color-white);
 }
-
+@media only screen and (max-width: 1000px) {
+  .password-criterea {
+    font-size: 0.8rem;
+  }
+}
 .password-criterea {
   position: relative;
   width: max-content;
